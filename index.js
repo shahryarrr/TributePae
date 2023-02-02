@@ -1,5 +1,6 @@
-const todayDateHtml = document.querySelector('#todayDate')
+const todayDateHtml = document.querySelector('#todayDate');
 
-const todayDate = new Date() .toDateString()
+const today = new Date();
+const todayDate = today.toDateString();
 
 todayDateHtml.textContent = todayDate;
